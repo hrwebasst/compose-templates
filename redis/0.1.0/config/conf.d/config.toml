@@ -1,0 +1,6 @@
+[template]
+src="config.tmpl"
+dest="/usr/share/redis/rancher/redis.conf"
+keys= [
+  "/self/service/metadata/config",
+]
